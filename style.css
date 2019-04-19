@@ -1,0 +1,65 @@
+.solution-name{
+  margin: 0 auto;
+  width: 50%;
+}
+/* chessboard, solution #1, flexbox*/
+.container{
+  width: 400px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: black solid 3px;
+}
+.item{
+  width: 80px;
+  height: 80px;
+}                  
+.item.black{
+  background-color: black;
+}
+.item.white{
+  background-color: white;
+}
+
+
+/*chessboard, solution #2, inline-block;
+default margins between divs*/
+.container2{
+  width: 600px;
+  margin: 20px auto;
+  border: black solid 3px;
+  font-size: 0;
+}
+.container2 div{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.container2 div:nth-child(3n+2){
+  background-color: black;
+}
+
+/*chessboard, solution#3, float*/
+.container3{
+  width: 400px;
+  margin: 20px auto;
+  border: black solid 3px;
+ }
+ .container3::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container3 div{
+  float:right;
+  width: 80px;
+  height: 80px;
+}
+.container3 div:nth-child(2n){
+  background-color: black;
+}
+span{
+  clear:both;
+}
