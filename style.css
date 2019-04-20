@@ -15,7 +15,10 @@
 .item{
   width: 80px;
   height: 80px;
-}                  
+}      
+.item:hover{
+  -webkit-box-shadow: 0 0 0 4px #000;
+}
 .item.black{
   background-color: black;
 }
@@ -36,6 +39,9 @@ default margins between divs*/
   display: inline-block;
   width: 60px;
   height: 60px;
+}
+.container2 div:hover{
+  -webkit-box-shadow: 0 0 3px 4px #000;
 }
 .container2 div:nth-child(3n+2){
   background-color: black;
