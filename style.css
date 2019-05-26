@@ -19,11 +19,8 @@
 .item:hover{
   -webkit-box-shadow: 0 0 0 4px #000;
 }
-.item.black{
+.item:nth-child(2n+1){
   background-color: black;
-}
-.item.white{
-  background-color: white;
 }
 
 
@@ -68,4 +65,7 @@ default margins between divs*/
 }
 span{
   clear:both;
+}
+h2.sol3{
+  margin-top: 40px;
 }
