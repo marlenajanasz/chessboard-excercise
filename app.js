@@ -79,3 +79,136 @@ head2.addEventListener("click", function(){           //lepiej przypisać funkcj
 	innerDiv25.setAttribute("class", "item");
 	div.appendChild(innerDiv25);
 });
+let color = function(){
+	blackbox1.style.backgroundColor = "purple";	
+};
+const blackbox1 = document.querySelector(".one");
+blackbox1.addEventListener("click", color);
+blackbox1.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox1.style.backgroundColor = "black";	
+	}
+})
+
+let color2 = function(){
+	blackbox2.style.backgroundColor = "purple";	
+};
+const blackbox2 = document.querySelector(".two");
+blackbox2.addEventListener("click", color2);
+blackbox2.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox2.style.backgroundColor = "black";	
+	}
+})
+let color3 = function(){
+	blackbox3.style.backgroundColor = "purple";	
+};
+const blackbox3 = document.querySelector(".three");
+blackbox3.addEventListener("click", color3);
+blackbox3.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox3.style.backgroundColor = "black";	
+	}
+})
+let color4 = function(){
+	blackbox4.style.backgroundColor = "purple";	
+};
+const blackbox4 = document.querySelector(".four");
+blackbox4.addEventListener("click", color4);
+blackbox4.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox4.style.backgroundColor = "black";	
+	}
+})
+let color5 = function(){
+	blackbox5.style.backgroundColor = "purple";	
+};
+const blackbox5 = document.querySelector(".five");
+blackbox5.addEventListener("click", color5);
+blackbox5.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox5.style.backgroundColor = "black";	
+	}
+})
+let color6 = function(){
+	blackbox6.style.backgroundColor = "purple";	
+};
+const blackbox6 = document.querySelector(".six");
+blackbox6.addEventListener("click", color6);
+blackbox6.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox6.style.backgroundColor = "black";	
+	}
+})
+let color7 = function(){
+	blackbox7.style.backgroundColor = "purple";	
+};
+const blackbox7 = document.querySelector(".seven");
+blackbox7.addEventListener("click", color7);
+blackbox7.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox7.style.backgroundColor = "black";	
+	}
+})
+let color8 = function(){
+	blackbox8.style.backgroundColor = "purple";	
+};
+const blackbox8 = document.querySelector(".eight");
+blackbox8.addEventListener("click", color8);
+blackbox8.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox8.style.backgroundColor = "black";	
+	}
+})
+let color9 = function(){
+	blackbox9.style.backgroundColor = "purple";	
+};
+const blackbox9 = document.querySelector(".nine");
+blackbox9.addEventListener("click", color9);
+blackbox9.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox9.style.backgroundColor = "black";	
+	}
+})
+
+let color10 = function(){
+	blackbox10.style.backgroundColor = "purple";	
+};
+const blackbox10 = document.querySelector(".ten");
+blackbox10.addEventListener("click", color10);
+blackbox10.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox10.style.backgroundColor = "black";	
+	}
+})
+
+let color11 = function(){
+	blackbox11.style.backgroundColor = "purple";	
+};
+const blackbox11 = document.querySelector(".eleven");
+blackbox11.addEventListener("click", color11);
+blackbox11.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox11.style.backgroundColor = "black";	
+	}
+})
+let color12 = function(){
+	blackbox12.style.backgroundColor = "purple";	
+};
+const blackbox12 = document.querySelector(".twelve");
+blackbox12.addEventListener("click", color12);
+blackbox12.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox12.style.backgroundColor = "black";	
+	}
+})
+let color13 = function(){
+	blackbox13.style.backgroundColor = "purple";	
+};
+const blackbox13 = document.querySelector(".thirteen");
+blackbox13.addEventListener("click", color13);
+blackbox13.addEventListener("dblclick", function(){
+	if(color = true){
+		blackbox13.style.backgroundColor = "black";	
+	}
+})
