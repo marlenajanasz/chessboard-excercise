@@ -1,6 +1,10 @@
 .solution-name{
-  margin: 0 auto;
+  margin: 40px auto 20px auto;
   width: 50%;
+}
+p{
+  font-style: italic;
+  font-weight: bold;
 }
 /* chessboard, solution #1, flexbox*/
 .container{
@@ -60,12 +64,14 @@ default margins between divs*/
   width: 80px;
   height: 80px;
 }
-.container3 div:nth-child(2n){
+.blackbox{
   background-color: black;
 }
 span{
   clear:both;
 }
-h2.sol3{
-  margin-top: 40px;
+h2.sol3:hover{
+  cursor: pointer;
+  color: purple;
+  text-shadow: 1px 1px 0 black;
 }
