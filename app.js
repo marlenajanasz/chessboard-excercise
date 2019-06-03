@@ -1,4 +1,4 @@
-//changing black squares' color - forEach excercise
+//changing black squares' colors - forEach excercise
 const blackBoxes = document.querySelectorAll(".blackbox");
 
 blackBoxes.forEach(function(blackBox){
