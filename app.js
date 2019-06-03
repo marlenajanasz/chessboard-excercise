@@ -1,3 +1,4 @@
+//changing black squares' color - forEach excercise
 const blackBoxes = document.querySelectorAll(".blackbox");
 
 blackBoxes.forEach(function(blackBox){
@@ -15,7 +16,7 @@ blackBoxes.forEach(function(blackBox){
 });
 
 
-//
+//reveal flexbox chessboard after clicking a header - loop excercise
 const head2 = document.querySelector("h2.sol3");
 head2.addEventListener("click", function(){         
 	const div = document.createElement("div");
