@@ -1,4 +1,4 @@
-onst blackBoxes = document.querySelectorAll(".blackbox");
+const blackBoxes = document.querySelectorAll(".blackbox");
 
 blackBoxes.forEach(function(blackBox){
 
@@ -29,4 +29,4 @@ head2.addEventListener("click", function(){
 		innerDiv.setAttribute("class", "item");
 		div.appendChild(innerDiv);
 	}
-	});
+});
